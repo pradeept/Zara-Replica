@@ -13,12 +13,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     
-        <!-- Bootstrap Scripts -->
+    <!-- Bootstrap Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+   <!-- Bootstrap icons -->
+   <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
+
     <!-- FontAwsome -->
     <script src="https://kit.fontawesome.com/d27ab3e769.js" crossorigin="anonymous"></script>
+
+
+    <!-- FontAwsome Backup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -26,39 +33,45 @@
 <body>
     <section class="container-fluid">
         <div class="slider-container">
-            <ul style="list-style: none;">
-                <li>
-                    <a href="/women.html" class="vid"><video autoplay muted loop id="myVideo">
-                        <source src="/Videos/women1080vedeo.mp4" class="source" type="video/mp4">
+            <ul style="list-style: none; margin:0px; padding: 0px;" class="slider-list">
+                <li class="slide" style="visibility: visible;">
+                    <a href="/woman.html" class="vid"><video autoplay muted loop id="myVideo">
+                        <source src="/Videos/welcomeVid.mp4" id="mp4video" class="vid-source" type="video/mp4">
                     </video></a>
+                </li>
+                <li class="slide" style="visibility: hidden; display: none;">
+                    <a href="/woman.html"><img src="/Images/woman4.jpg" alt="Woman Poster"/></a>
+                </li>
+                <li class="slide" style="visibility: hidden; display: none;">
+                    <a href="/man.html"><img src="/Images/man.jpg" alt="Man Poster"/></a>
+                </li>
+                <li class="slide" style="visibility: hidden; display: none;">
+                    <a href="/kid.html"><img src="/Images/kid.jpg" alt="Kid Poster"/></a>
+                </li>
+                <li class="slide" style="visibility: hidden; display: none;">
+                    <a href="/beauty.html"><img src="/Images/beauty.jpg" alt="Beauty Poster"/></a>
                 </li>
             </ul>
         </div>
        
         <!-- Navbar -->
         <nav>
-            <i class="fa-solid fa-bars bars" style="color: #414141; margin: 0.5rem 2rem 3rem 1rem;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i>
+            <i class="fa-solid fa-bars bars nav-white" style="color: #414141; margin: 0.5rem 2rem 3rem 1rem;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i>
             <h1>GAARA</h1>
-            <div class="nav-right">
-                <a href="/search.html"><button type="text" class="search-bar" ><u> Search &nbsp; &nbsp; &nbsp; &nbsp;</u><i class="fa-solid fa-magnifying-glass"></i></button></a>
-                <button >Login</button>
-                <button>Help</button>
-                <button>Credits</button>
-                <button><i class="fa-sharp fa-solid fa-bag-shopping" ></i></button>
+            <div class="nav-right nav-white">
+                <a href="/search.html" class="nav-white"><button type="text" class="search-bar nav-white" ><u class="nav-white"> Search &nbsp; &nbsp; &nbsp; &nbsp;</u><i class="fa-solid fa-magnifying-glass"></i></button></a>
+                <button class="nav-white">Login</button>
+                <button class="nav-white">Help</button>
+                <button class="nav-white">Credits</button>
+                <button class="nav-white"><i class="fa-sharp fa-solid fa-bag-shopping" ></i></button>
             </div>
         </nav>
-        <h5 class="gender">Women</h5>
+        <h5 class="gender nav-white">Women</h5>
+        <button class="arrow-up nav-white" ><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+        <button class="arrow-down nav-white" ><i class="fa fa-arrow-down" aria-hidden="true"></i></button>
     </section>
-    <!-- <section class="categories">
-        <div class="sidebar-container">
-            <div class="cat-container">
-                <button>Women</button>
-                <button>Men</button>
-                <button>Kids</button>
-                <button>Beauty</button>
-            </div>
-        </div>
-    </section> -->
+   
+    <!-- SideBar -->
     <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
             <div class="cat-container">
@@ -73,7 +86,7 @@
           <ul class="cloth-cat">
               <li><a href="/womens-bestSellers.html">BEST SELLERS</a></li>
               <li><a href="/womens-shirts.html">SHIRTS</a></li>
-              <li>T-SHIRTS|SWEATSHIRTS</li>
+              <li>T-SHIRTS|SWEATSHIRTS <i class="bi bi-arrow-down"></i></li>
               <li>BASICS</li>
               <li>TROUSERS</li>
               <li>JEANS</li>

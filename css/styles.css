@@ -18,14 +18,31 @@ body{
 
 /* Video Background */
 
-#myVideo{
+.slide{
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: -200px; /* it was 0*/
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;
     cursor: pointer;
+}
+
+.arrow-up{
+    position: absolute;
+    top: 6rem;
+    right: 4rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 6rem;
+    right: 4rem;
+    cursor: pointer;
+    border: none;
+    background: none;
 }
 
 /* Navigation Bar */
@@ -38,7 +55,7 @@ nav{
 nav h1{
     font-family: 'didotRegular';
     font-size: 6rem;
-    letter-spacing: -15px;
+    letter-spacing: -20px;
     font-weight: 400;
 }
 
