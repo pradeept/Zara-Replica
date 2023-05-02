@@ -128,10 +128,27 @@ nav .bars{
 .cloth-cat{
     font-weight: 100;
     list-style: none;
+    text-decoration: none;
+
 }
+
+.cat-container button:hover{
+    font-weight: 400;
+    border-bottom: 1px black double;
+}
+
 .cloth-cat li{
     margin-top: 0.3rem;
     cursor: pointer;
+}
+
+.cloth-cat li a{
+    text-decoration: none;
+    color: black;
+}
+
+.cloth-cat li a:hover{
+    color: rgb(103, 104, 105);
 }
 
 .offcanvas{

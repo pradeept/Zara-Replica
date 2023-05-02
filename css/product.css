@@ -1,0 +1,41 @@
+@font-face {
+    font-family: didotRegular;
+    src: url(/Fonts/didot\ fonts\ family/Didot\ Regular.ttf);
+}
+@font-face {
+    font-family: didotMedium;
+    src: url(/Fonts/didot\ fonts\ family/Didot\ Medium.ttf);
+}
+
+@font-face {
+    font-family: helvaticaNeue;
+    src: url(/Fonts/Helvetica\ Neue\ UltraLight/Helvetica\ Neue\ UltraLight.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info{
+    
+    font-weight: 200;
+    margin-top: 2rem;
+}
+
+li{
+    list-style: none;
+    padding-left: 5px;
+    cursor: pointer;
+    color: rgb(145, 143, 143);
+}
+li:hover{
+    background-color: rgb(232, 234, 235);
+    color: black;
+}
+
+.add-to-bag{
+    margin-bottom: 3rem;
+}
+

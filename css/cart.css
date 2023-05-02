@@ -1,0 +1,19 @@
+.show-total-container{
+    padding: 2rem;
+}
+.show-total-container div {
+    color: rgb(138, 138, 138);
+}
+
+.show-total-container span{
+    color: rgb(197, 196, 196);
+}
+
+.buy-btn{
+    padding-left: 3rem;
+    padding-right: 3rem;  
+      
+}
+
+
+   

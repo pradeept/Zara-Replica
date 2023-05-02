@@ -1,0 +1,59 @@
+@font-face {
+    font-family: didotRegular;
+    src: url(/Fonts/didot\ fonts\ family/Didot\ Regular.ttf);
+}
+@font-face {
+    font-family: didotMedium;
+    src: url(/Fonts/didot\ fonts\ family/Didot\ Medium.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'didotRegular' ;
+}
+
+.title{
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+}
+
+.coll{
+    margin:0px;
+}
+
+.items-row img{
+    max-width: 100%;
+}
+
+figure{
+    cursor: pointer;
+}
+figcaption{
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: 100;
+}
+
+figcaption span{
+    font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 758px) {
+    figcaption{
+        text-align: center;
+    }
+   
+}
+
+/* Products container */
+
+.products-container{
+    padding: 2rem;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best-Seller</title>
+    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./css/product.css">
+</head>
+<body>
+    <div class="nav-container"></div>
+    <section class="container products-container">
+        <div class="row item-row">
+            <!-- <figure class=" col-md-6 col-sm-12 col-lg-4 items-col">
+                <img src="Images/bestSellerWoman.jpg" alt="product image" class="img-responsive">
+                <figcaption></figcaption>
+            </figure> -->
+            <div class="checkout col" >
+                <div class="prod-desc info"></div>
+                <small style="color: rgb(168, 167, 167);">MRP incl. of all taxes</small>
+                <br>
+                <br>
+                <br>
+                <hr>
+                    <ul class="size-container">
+                        <li>XS</li>
+                        <li>S</li>
+                        <li>M</li>
+                        <li>L</li>
+                        <li>XL</li>
+                        <li>XXL</li>
+                    </ul>
+                    <div class="info">Size: <span class="selected-size"></span></div>
+                <hr>
+                <button class="btn btn-outline-secondary  d-flex justify-content-center add-to-bag">ADD TO BAG</button>
+            </div>
+        </div>
+        
+  </section>
+</body>
+<script src="/JS/product.js" type="module"></script>
+<script type="module">
+    import nav from './JS/nav.js';
+    import header from './JS/header.js';
+    $("head").append(header);
+    $(".nav-container").append(nav);
+</script>
+</html>
