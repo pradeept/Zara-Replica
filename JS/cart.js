@@ -23,7 +23,7 @@ $(document).ready(()=>{
 
     $(".buy-btn").click(()=>{
         alert('Purchase Success!.\n\nProduct will be Delivered to your address.\nThank you.');
-        $(location).attr("href","/WbestSeller.html")
+        $(location).attr("href","/Collections/WbestSeller.html")
     })
 
 });
