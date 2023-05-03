@@ -539,139 +539,7 @@ const wBS = [
         itemCategory: "DRESSES_JUMPSUITS",
         sale: "60%",
     },
-    // 5==1
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/7957/021/712/3/w/334/7957021712_2_1_1.jpg?ts=1624019882619",
-        productName: "TEXTURED PRINTED BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==2
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/8561/577/400/2/w/334/8561577400_1_1_1.jpg?ts=1632910749725",
-        productName: "FINE CORDUROY SHIRT",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "50%",
-    },
-    // 5==3
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/7484/166/942/2/w/334/7484166942_1_1_1.jpg?ts=1630580738069",
-        productName: "FLOWING JACQUARD SHIRT",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==4
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/7563/268/629/2/w/334/7563268629_2_1_1.jpg?ts=1632486605364",
-        productName: "VOLUMINOUS POPLIN SHIRT",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==5
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/7563/252/606/2/w/334/7563252606_2_1_1.jpg?ts=1627046994062",
-        productName: "CROSSOVER PRINTED BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==6
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/8351/239/330/2/w/334/8351239330_1_1_1.jpg?ts=1634294247335",
-        productName: "PRINTED PLEATED BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,790.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==7
-    {
-        imageURL:
-            "https://static.zara.net/photos///2022/V/0/1/p/4437/042/507/2/w/334/4437042507_2_1_1.jpg?ts=1636560539578",
-        productName: "FITTED KNIT BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==8
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/2143/242/506/2/w/334/2143242506_2_2_1.jpg?ts=1627046995619",
-        productName: "STRIPED BLOUSE WITH POCKET",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==9
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/2143/244/746/2/w/334/2143244746_2_1_1.jpg?ts=1628782308563",
-        productName: "RUSTIC TOP WITH POCKET",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==10
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/2298/218/330/2/w/334/2298218330_2_1_1.jpg?ts=1632479467987",
-        productName: "FLORAL PRINT BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,790.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==11
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/2143/241/426/2/w/334/2143241426_2_1_1.jpg?ts=1623939956197",
-        productName: "TEXTURED COTTON BLOUSE",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,790.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 5==12
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/9479/080/251/2/w/334/9479080251_2_3_1.jpg?ts=1627047029125",
-        productName: "LOOSE-FITTING SHIRT WITH POCKETS",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,790.00",
-        itemGender: "female",
-        itemCategory: "SHIRTS",
-        sale: "45%",
-    },
-    // 6==1
+
     {
         imageURL:
             "https://static.zara.net/photos///2021/I/0/1/p/8246/242/403/2/w/334/8246242403_2_1_1.jpg?ts=1628174682184",
@@ -805,27 +673,27 @@ const wBS = [
     },
 
     // 7==1
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/7102/215/800/2/w/334/7102215800_2_6_1.jpg?ts=1630068751354",
-        productName: "EXTRA-LONG LEGGINGS WITH VENT===",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 2,590.00",
-        itemGender: "female",
-        itemCategory: "TROUSERS",
-        sale: "60%",
-    },
+    // {
+    //     imageURL:
+    //         "https://static.zara.net/photos///2021/I/0/1/p/7102/215/800/2/w/334/7102215800_2_6_1.jpg?ts=1630068751354",
+    //     productName: "EXTRA-LONG LEGGINGS WITH VENT===",
+    //     price: "₹ 990.00",
+    //     strikedPrice: "₹ 2,590.00",
+    //     itemGender: "female",
+    //     itemCategory: "TROUSERS",
+    //     sale: "60%",
+    // },
     // 7==2
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/9479/242/806/2/w/334/9479242806_1_1_1.jpg?ts=1639735796124",
-        productName: "CARROT FIT CROPPED TROUSERS",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,990.00",
-        itemGender: "female",
-        itemCategory: "TROUSERS",
-        sale: "60%",
-    },
+    // {
+    //     imageURL:
+    //         "https://static.zara.net/photos///2021/I/0/1/p/9479/242/806/2/w/334/9479242806_1_1_1.jpg?ts=1639735796124",
+    //     productName: "CARROT FIT CROPPED TROUSERS",
+    //     price: "₹ 1,590.00",
+    //     strikedPrice: "₹ 2,990.00",
+    //     itemGender: "female",
+    //     itemCategory: "TROUSERS",
+    //     sale: "60%",
+    // },
     // 7==3
     {
         imageURL:
@@ -1465,141 +1333,11 @@ const wBS = [
         sale: "35%",
     },
     // 12==1
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/3920/221/600/2/w/334/3920221600_6_1_1.jpg?ts=1631116860085",
-        productName: "MOBILE PHONE BAG WITH PURSE",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,790.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "40%",
-    },
-    // 12==2
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/4736/394/641/2/w/334/4736394641_6_1_1.jpg?ts=1635233612330",
-        productName: "CONTRASTING STONE BEAD NECKLACE",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 2,590.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "60%",
-    },
-    // 12==3
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/1124/230/303/2/w/334/1124230303_2_1_1.jpg?ts=1636388922593",
-        productName: "PEARL NECKLACE PLATED IN 24K GOLD",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,990.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "50%",
-    },
-    // 12==4
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/3920/284/800/2/w/334/3920284800_6_1_1.jpg?ts=1634906572935",
-        productName: "DIAMOND JACQUARD SCARF",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,590.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "35%",
-    },
-    // 12==5
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/1023/211/083/2/w/334/1023211083_6_1_1.jpg?ts=1635178064567",
-        productName: "KNIT FRETWORK BEANIE",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,590.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "35%",
-    },
-    // 12==6
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/3739/278/500/2/w/334/3739278500_2_1_1.jpg?ts=1636562697064",
-        productName: "KNIT SCARF WITH FRINGING",
-        price: "₹ 1,590.00",
-        strikedPrice: "₹ 2,590.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "35%",
-    },
-    // 12==7
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/4319/292/330/2/w/334/4319292330_6_1_1.jpg?ts=1629368173209",
-        productName: "MAXI RHINESTONE BELT",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,990.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "50%",
-    },
-    // 12==8
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/4548/227/641/2/w/334/4548227641_1_1_1.jpg?ts=1635344489601",
-        productName: "ROUND STONE NECKLACE",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,990.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "50%",
-    },
-    // 12==9
-    {
-        imageURL:
-            "https://static.zara.net/photos///2022/V/0/1/p/4736/002/800/2/w/331/4736002800_1_1_1.jpg?ts=1637842608605",
-        productName: "STRETCH DIAMANTÉ BELT",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,990.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "40%",
-    },
-    // 12==10
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/V/2/1/p/0047/056/999/2/w/331/0047056999_6_1_1.jpg?ts=1610612773197",
-        productName: "PARIS 10ML",
-        price: "₹ 290.00",
-        strikedPrice: "₹ 390.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "20%",
-    },
-    // 12==11
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/1/1/p/6723/810/040/2/w/331/6723810040_15_1_1.jpg?ts=1631721686681",
-        productName: "NYLON TOTE BAG - YOGA COLLECTION",
-        price: "₹ 3,990.00",
-        strikedPrice: "₹ 4,990.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "20%",
-    },
-    // 12==12
-    {
-        imageURL:
-            "https://static.zara.net/photos///2021/I/0/1/p/4736/249/303/2/w/334/4736249303_6_1_1.jpg?ts=1625156556307",
-        productName: "PACK OF ASSORTED BRACELETS",
-        price: "₹ 990.00",
-        strikedPrice: "₹ 1,590.00",
-        itemGender: "female",
-        itemCategory: "ACCESSORIES",
-        sale: "40%",
-    },
+    
 ];
 
 //Adding women styles to local storage
-localStorage.setItem('womenData', JSON.stringify(wBS));
+localStorage.setItem('wBS', JSON.stringify(wBS));
 
 // Exporting
 export default wBS;

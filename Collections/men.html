@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="container">
+        <figure>
+            <img src="https://www.zara.com/in/en/-inigo---studio-graphic-print-swimming-trunks-p08574476.html?v1=269983256&v2=2204415"/>
+            <figcaption>@INIGO _ STUDIO GRAPHIC PRINT SWIMMING TRUNKS
+                ₹ 2,990.00</figcaption>
+        </figure>
+    </div>
+</body>
+
+<script type="module">
+    import header from '../JS/header.js'
+    import navCode from '../JS/nav.js';
+
+    $("head").append(header);
+    $(".nav").append(navCode);
+</script>
+</html>

@@ -1,5 +1,5 @@
 //Bags Data
-const bagData = [
+const beautyData = [
     {
         imageURL:
             "https://static.zara.net/photos///2021/I/1/1/p/6581/810/102/2/w/444/6581810102_15_1_1.jpg?ts=1634201998255",
@@ -529,6 +529,137 @@ const shoesData = [
         itemGender: "Women",
         itemCategory: "TRAINERS",
         sale: "60%",
+    },
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/3920/221/600/2/w/334/3920221600_6_1_1.jpg?ts=1631116860085",
+        productName: "MOBILE PHONE BAG WITH PURSE",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,790.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "40%",
+    },
+    // 12==2
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/4736/394/641/2/w/334/4736394641_6_1_1.jpg?ts=1635233612330",
+        productName: "CONTRASTING STONE BEAD NECKLACE",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 2,590.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "60%",
+    },
+    // 12==3
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/1124/230/303/2/w/334/1124230303_2_1_1.jpg?ts=1636388922593",
+        productName: "PEARL NECKLACE PLATED IN 24K GOLD",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,990.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "50%",
+    },
+    // 12==4
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/3920/284/800/2/w/334/3920284800_6_1_1.jpg?ts=1634906572935",
+        productName: "DIAMOND JACQUARD SCARF",
+        price: "₹ 1,590.00",
+        strikedPrice: "₹ 2,590.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "35%",
+    },
+    // 12==5
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/1023/211/083/2/w/334/1023211083_6_1_1.jpg?ts=1635178064567",
+        productName: "KNIT FRETWORK BEANIE",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,590.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "35%",
+    },
+    // 12==6
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/3739/278/500/2/w/334/3739278500_2_1_1.jpg?ts=1636562697064",
+        productName: "KNIT SCARF WITH FRINGING",
+        price: "₹ 1,590.00",
+        strikedPrice: "₹ 2,590.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "35%",
+    },
+    // 12==7
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/4319/292/330/2/w/334/4319292330_6_1_1.jpg?ts=1629368173209",
+        productName: "MAXI RHINESTONE BELT",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,990.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "50%",
+    },
+    // 12==8
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/4548/227/641/2/w/334/4548227641_1_1_1.jpg?ts=1635344489601",
+        productName: "ROUND STONE NECKLACE",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,990.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "50%",
+    },
+    // 12==9
+    {
+        imageURL:
+            "https://static.zara.net/photos///2022/V/0/1/p/4736/002/800/2/w/331/4736002800_1_1_1.jpg?ts=1637842608605",
+        productName: "STRETCH DIAMANTÉ BELT",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,990.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "40%",
+    },
+    // 12==10
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/V/2/1/p/0047/056/999/2/w/331/0047056999_6_1_1.jpg?ts=1610612773197",
+        productName: "PARIS 10ML",
+        price: "₹ 290.00",
+        strikedPrice: "₹ 390.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "20%",
+    },
+    // 12==11
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/1/1/p/6723/810/040/2/w/331/6723810040_15_1_1.jpg?ts=1631721686681",
+        productName: "NYLON TOTE BAG - YOGA COLLECTION",
+        price: "₹ 3,990.00",
+        strikedPrice: "₹ 4,990.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "20%",
+    },
+    // 12==12
+    {
+        imageURL:
+            "https://static.zara.net/photos///2021/I/0/1/p/4736/249/303/2/w/334/4736249303_6_1_1.jpg?ts=1625156556307",
+        productName: "PACK OF ASSORTED BRACELETS",
+        price: "₹ 990.00",
+        strikedPrice: "₹ 1,590.00",
+        itemGender: "female",
+        itemCategory: "ACCESSORIES",
+        sale: "40%",
     },
 ];
 
