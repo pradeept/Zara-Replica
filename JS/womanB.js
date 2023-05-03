@@ -1,4 +1,4 @@
-import wBS from '../Data/womenB.js';
+import wBS from '../Data/womanB.js';
 
 $(document).ready(()=>{
 
@@ -11,13 +11,13 @@ $(document).ready(()=>{
     
     $(".product-item").click((event)=>{
         const src = event.target.currentSrc;
-        const recData = localStorage.getItem("womenData");
+        const recData = localStorage.getItem("womanB");
         const wdata = JSON.parse(recData);
         console.log(src)
         console.log(typeof(wdata));
         wdata.filter((item)=>{
             if(item.imageURL === src){
-                return $(location).attr('href',"/product.html?src="+item.imageURL+"+?origin=woman");
+                return $(location).attr('href',"/product.html?src="+item.imageURL+"+?origin=womanB");
             }
         });
         console.log(wdata)

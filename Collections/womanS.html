@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best-Seller</title>
+
+    <link rel="stylesheet" href="/css/best-seller.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+</head>
+<body>
+      <div class="nav-container"></div>  
+      <!-- Items -->
+      <section class="container products-container">
+         
+            <div class="row text-center gy-3 items-row">
+               
+            </div>
+      </section>
+</body>
+<script src="/JS/womanB.js" type="module"></script>
+<script type="module">
+    import nav from '../JS/nav.js';
+    import header from '../JS/header.js';
+    $(".nav-container").append(nav);
+    $("head").append(header);
+
+    import wBS from '../Data/womanS.js';
+
+
+
+    wBS.map((item)=>{
+        $(".items-row").append("<figure class='col-md-6 col-sm-12 col-lg-3 items-col product-item'>\
+        <img src='"+item.imageURL+"' alt='Trulli' class='img-responsive '>\
+            <figcaption>"+item.productName+"<br><span>"+item.price+"</span></figcaption>\
+        </figure>");
+    });
+    
+    $(".product-item").click((event)=>{
+        const src = event.target.currentSrc;
+        const recData = localStorage.getItem("womanS");
+        const wdata = JSON.parse(recData);
+        console.log(src)
+        console.log(typeof(wdata));
+        wdata.filter((item)=>{
+            if(item.imageURL === src){
+                return $(location).attr('href',"/product.html?src="+item.imageURL+"+?origin=womanS");
+            }
+        });
+        console.log(wdata)
+        console.log(event)
+    });
+</script>
+</html>

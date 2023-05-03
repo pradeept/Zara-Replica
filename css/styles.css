@@ -16,15 +16,30 @@ body{
     font-family: 'didotRegular';
 }
 
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+
+.anchor:hover{
+    color: black;
+}
+
 /* Video Background */
 
 .slide{
     position: fixed;
     right: 0;
-    bottom: -200px; /* it was 0*/
-    min-width: 100%;
-    min-height: 100%;
+    bottom: 0; /* it was 0*/
+    max-width: 100%;
+    max-height: 100%;
     cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .slide a img{
+        
+    }
 }
 
 .arrow-up{
@@ -94,6 +109,21 @@ nav .bars{
     right: 30px;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 900px) {
+    .search-container{
+        visibility: hidden;
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+      .login, .help, .credits{
+          visibility: hidden;
+          display: none;
+      }
+  }
+
 
 /* Sidebar - Categories */
 

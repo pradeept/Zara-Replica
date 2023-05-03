@@ -16,10 +16,21 @@ $(document).ready(()=>{
         recData =  localStorage.getItem("manB");
     }else if(origin === "manS"){
         recData = localStorage.getItem("manS");
-    }else if(origin === "woman"){
-        recData = localStorage.getItem("womanData");
+    }else if(origin === "womanB"){
+        recData = localStorage.getItem("womanB");
+    }else if(origin === "womanS"){
+        recData = localStorage.getItem("womanS");
+    }else if(origin === "kidB"){
+        recData = localStorage.getItem("boyData");
+    }else if(origin === "kidG"){
+        recData = localStorage.getItem("girlData");
+    }else{
+        $(".container").append("<h1 style='text-align:center;'>Cart is Empty :(</h1>");
+        $(".container").append();
+        $(".buy-btn").css("display","none");
+        return
     }
-    recData = localStorage.getItem(origin);
+    // recData = localStorage.getItem(origin);
     const wdata = JSON.parse(recData);
     wdata.filter((item)=>{
         if(item.imageURL == src){

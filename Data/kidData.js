@@ -1203,4 +1203,4 @@ localStorage.setItem('boyData', JSON.stringify(boyData));
 //Adding girls styles to local storage
 localStorage.setItem('girlData', JSON.stringify(girlData));
 
-export default {girlData, boyData};
+export {girlData, boyData};

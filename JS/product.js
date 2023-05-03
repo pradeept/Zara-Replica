@@ -17,8 +17,14 @@ $(document).ready(()=>{
         recData =  localStorage.getItem("manB");
     }else if(origin === "manS"){
         recData = localStorage.getItem("manS");
-    }else if(origin === "woman"){
-        recData = localStorage.getItem("womanData");
+    }else if(origin === "womanB"){
+        recData = localStorage.getItem("womanB");
+    }else if(origin === "womanS"){
+        recData = localStorage.getItem("womanS");
+    }else if(origin === "kidB"){
+        recData = localStorage.getItem("boyData");
+    }else if(origin === "kidG"){
+        recData = localStorage.getItem("girlData");
     }
 
     const wdata = JSON.parse(recData);
