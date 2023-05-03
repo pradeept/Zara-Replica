@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="head">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/styles.css"/>
-    <!-- Jquery -->
+    <title>Best-Seller</title>
+
+    <link rel="stylesheet" href="/css/best-seller.css">
+    <link rel="stylesheet" href="/css/styles.css">    
+
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
 
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Nav bar -->
     <nav>
         <i class="fa-solid fa-bars bars nav-white" style="color: #414141; margin: 0.5rem 2rem 3rem 1rem;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></i>
         <h1>GAARA</h1>
@@ -22,15 +26,7 @@
             <button class="nav-white">Credits</button>
             <button class="nav-white"><i class="fa-sharp fa-solid fa-bag-shopping" ></i></button>
         </div>
-        
     </nav>
-    <!-- Video -->
-    <div class="container-fluid">
-        <h3 style="font-size: 0.6rem; text-align:center; font-weight:100 ">Man's Collection. <span style="font-weight: 500; font-style: italic;">Use Side-Bar to select category</span></h3>
-        <a href="/Collections/men.html" class="vid "><video autoplay muted loop id="myVideo" style="width: 100%;">
-            <source src="/Videos/subhome-xmedia-video-52-2_0.mp4" id="mp4video" class="vid-source" type="video/mp4">
-        </video></a>
-    </div>
 
     <!-- Side Bar -->
     <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -45,8 +41,8 @@
         </div>
         <div class="offcanvas-body">
           <ul class="cloth-cat">
-              <li><a href="manB.html">BEST SELLERS</a></li>
-              <li><a href="manS.html">SHIRTS</a></li>
+              <li><a href="Collections/manB.html">BEST SELLERS</a></li>
+              <li><a href="/Collections/manS.html">SHIRTS</a></li>
               <li>T-SHIRTS|SWEATSHIRTS </li>
               <li>BASICS</li>
               <li>TROUSERS</li>
@@ -56,11 +52,42 @@
           </ul>
         </div>
       </div>
-</body>
 
+      <!-- Items -->
+      <h3 style="font-size: 0.6rem; text-align:center; font-weight:100 ">Best Seller. <span style="font-weight: 500; font-style: italic;">Use Side-Bar to select category</span></h3>
+      <section class="container products-container">
+         
+            <div class="row text-center gy-3 items-row">
+                
+            </div>
+      </section>
+</body>
 <script type="module">
-    import header from '../JS/header.js'
+
+    import header from '../JS/header.js';
+    import menB from '../Data/manB.js';
 
     $("head").append(header);
+    menB.map((item)=>{
+        $(".items-row").append("<figure class='col-md-6 col-sm-12 col-lg-3 items-col product-item'>\
+        <img src='"+item.imageURL+"' alt='Trulli' class='img-responsive '>\
+            <figcaption>"+item.productName+"<br><span>"+item.price+"</span></figcaption>\
+        </figure>");
+    });
+
+    $(".product-item").click((event)=>{
+        const src = event.target.currentSrc;
+        const recData = localStorage.getItem("manB");
+        const wdata = JSON.parse(recData);
+        console.log(src)
+        console.log(typeof(wdata));
+        wdata.filter((item)=>{
+            if(item.imageURL === src){
+                return $(location).attr('href',"/product.html?src="+item.imageURL+"+?origin=manB");
+            }
+        });
+        console.log(wdata)
+        console.log(event)
+    })
 </script>
 </html>

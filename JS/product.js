@@ -1,6 +1,6 @@
 // Function to get url parameter
 $.urlParam = function(name){
-    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    var results = new RegExp('[\?&]' + name + '=([^&#+]*)').exec(window.location.href);
     if (results==null) {
        return null;
     }
@@ -10,14 +10,24 @@ $.urlParam = function(name){
 
 $(document).ready(()=>{
     const src = $.urlParam("src");
+    const origin = $.urlParam("origin");
     console.log(src);
-    const recData = localStorage.getItem("womenData");
+    let recData = "";
+    if(origin === "manB"){
+        recData =  localStorage.getItem("manB");
+    }else if(origin === "manS"){
+        recData = localStorage.getItem("manS");
+    }else if(origin === "woman"){
+        recData = localStorage.getItem("womanData");
+    }
+
     const wdata = JSON.parse(recData);
+    console.log(wdata);
     wdata.filter((item)=>{
         if(item.imageURL == src){
             $(".item-row").append(
                 "<figure class='col  d-flex justify-content-center  items-col product-item'>\
-        <img src='"+item.imageURL+"' alt='Trulli' class='img-responsive '>\
+        <img src='"+item.imageURL+"' alt='something' class='img-responsive '>\
            \
         </figure>"
             );
@@ -37,7 +47,7 @@ $(document).ready(()=>{
         if(txt === 'GO TO BAG'){
             localStorage.setItem('toBag',src);
             console.log(localStorage.getItem("toBag"));
-            $(location).attr('href',"/cart.html?src="+src);
+            $(location).attr('href',"/cart.html?src="+src+"+?origin="+origin);
         }else{
             $(".add-to-bag").text('GO TO BAG');
         }

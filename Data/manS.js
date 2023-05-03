@@ -83,4 +83,4 @@ const menS = [
 
 export default menS;
 
-localStorage.setItem("menS",JSON.stringify(mens));
+localStorage.setItem("manS",JSON.stringify(menS));

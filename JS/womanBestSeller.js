@@ -17,7 +17,7 @@ $(document).ready(()=>{
         console.log(typeof(wdata));
         wdata.filter((item)=>{
             if(item.imageURL === src){
-                return $(location).attr('href',"/product.html?src="+item.imageURL);
+                return $(location).attr('href',"/product.html?src="+item.imageURL+"+?origin=woman");
             }
         });
         console.log(wdata)

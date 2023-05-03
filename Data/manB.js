@@ -580,4 +580,4 @@ const menB = [
 export default menB;
 
 //Adding men styles to local storage
-localStorage.setItem('menData', JSON.stringify(menB));
+localStorage.setItem('manB', JSON.stringify(menB));

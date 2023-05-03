@@ -1337,7 +1337,7 @@ const wBS = [
 ];
 
 //Adding women styles to local storage
-localStorage.setItem('wBS', JSON.stringify(wBS));
+localStorage.setItem('womanData', JSON.stringify(wBS));
 
 // Exporting
 export default wBS;
