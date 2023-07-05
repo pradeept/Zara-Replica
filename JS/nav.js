@@ -14,8 +14,8 @@ const nav = ()=>{
 <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
             <div class="cat-container">
-                <button><a href='/Collections/womanB.html' class='anchor'>Woman</a></button>
-                <button><a href='/Collections/man.html' class='anchor'>Man</a></button>
+                <button><a href='Collections/womanB.html' class='anchor'>Woman</a></button>
+                <button><a href='Collections/man.html' class='anchor'>Man</a></button>
                 <button>Kids</button>
                 <button>Beauty</button>
             </div>
@@ -23,8 +23,8 @@ const nav = ()=>{
         </div>
         <div class="offcanvas-body">
           <ul class="cloth-cat">
-              <li><a href="/womanB.html">BEST SELLERS</a></li>
-              <li><a href="/womens-shirts.html">SHIRTS</a></li>
+              <li><a href="womanB.html">BEST SELLERS</a></li>
+              <li><a href="womens-shirts.html">SHIRTS</a></li>
               <li>T-SHIRTS|SWEATSHIRTS </li>
               <li>BASICS</li>
               <li>TROUSERS</li>

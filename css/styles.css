@@ -1,10 +1,10 @@
 @font-face {
     font-family: didotRegular;
-    src: url(/Fonts/didot\ fonts\ family/Didot\ Regular.ttf);
+    src: url(Fonts/didot\ fonts\ family/Didot\ Regular.ttf);
 }
 @font-face {
     font-family: didotMedium;
-    src: url(/Fonts/didot\ fonts\ family/Didot\ Medium.ttf);
+    src: url(Fonts/didot\ fonts\ family/Didot\ Medium.ttf);
 }
 *{
     box-sizing: border-box;
@@ -34,12 +34,6 @@ body{
     max-width: 100%;
     max-height: 100%;
     cursor: pointer;
-}
-
-@media screen and (max-width:800px) {
-    .slide a img{
-        
-    }
 }
 
 .arrow-up{
@@ -127,9 +121,6 @@ nav .bars{
 
 /* Sidebar - Categories */
 
-.categories{
-    
-}
 
 .sidebar-container{
     width: 25%;
